@@ -1,0 +1,76 @@
+#suckerfishnav .sf {
+    background:#bbb ;
+    font-size:13px;
+    font-family:verdana,sans-serif;
+    font-weight:bold;
+    width:100%;
+    }
+#suckerfishnav .sf, #suckerfishnav .sf ul {
+    float:left;
+    list-style:none;
+    line-height:20px;
+    padding:0;
+    border:1px solid #bbb;
+    margin:0;
+    width:100%;
+    }
+#suckerfishnav .sf a {
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    padding:0px 25px;
+    }
+#suckerfishnav .sf li {
+    float:left;
+    padding:0;
+    }
+#suckerfishnav .sf ul {
+    position:absolute;
+    left:-999em;
+    height:auto;
+    width:131px;
+    font-weight:normal;
+    margin:0;
+    line-height:1;
+    border:0;
+    border-top:1px solid #666666;
+    }
+#suckerfishnav .sf li li {
+    width:129px;
+    border-bottom:1px solid #666666;
+    border-left:1px solid #666666;
+    border-right:1px solid #666666;
+    font-weight:normal;
+    font-family:verdana,sans-serif;
+    }
+#suckerfishnav .sf li li a {
+    padding:3px 10px;
+    width:80px;
+    font-size:13px;
+    color:#fff;
+    }
+#suckerfishnav .sf li ul ul {
+    margin:-20px 0 0 130px;
+    }
+#suckerfishnav .sf li li:hover{
+    background:#99CCFF;
+    }
+#suckerfishnav .sf li ul li:hover a, #suckerfishnav .sf li ul li li:hover a, #suckerfishnav .sf li ul li li li:hover a, #suckerfishnav .sf li ul li li li:hover a {
+    color:#fff;
+    }
+#suckerfishnav .sf li:hover a, #suckerfishnav .sf li.sfhover a {
+    color:#fff;
+    }
+#suckerfishnav .sf li:hover li a, #suckerfishnav .sf li li:hover li a, #suckerfishnav .sf li li li:hover li a, #suckerfishnav .sf li li li li:hover li a {
+    color:#fff;
+    }
+#suckerfishnav .sf li:hover ul ul, #suckerfishnav .sf li:hover ul ul ul, #suckerfishnav .sf li:hover ul ul ul ul, #suckerfishnav .sf li.sfhover ul ul, #suckerfishnav .sf li.sfhover ul ul ul, #suckerfishnav .sf li.sfhover ul ul ul ul {
+    left:-999em;
+    }
+#suckerfishnav .sf li:hover ul, #suckerfishnav .sf li li:hover ul, #suckerfishnav .sf li li li:hover ul, #suckerfishnav .sf li li li li:hover ul, #suckerfishnav .sf li.sfhover ul, #suckerfishnav .sf li li.sfhover ul, #suckerfishnav .sf li li li.sfhover ul, #suckerfishnav .sf li li li li.sfhover ul {
+    left:auto;
+    background:#bbb;
+    }
+#suckerfishnav .sf li:hover, #suckerfishnav .sf li.sfhover {
+    background:#99CCFF;
+    }
